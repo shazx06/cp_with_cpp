@@ -9,7 +9,8 @@ int N;
     cin>>N;
     stack<string>stk;
     string st;
-    while(N--){
+    while(N--)
+    {
         int n; cin>>n;
         if(n==1){
             string str;
@@ -31,12 +32,14 @@ int N;
             stk.pop();
         }
     }
+
 ```
 <br>
 
 ### [2. Min cost climbing stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
 ```cpp
- int minCostClimbingStairs(vector<int>& cost) {
+ int minCostClimbingStairs(vector<int>& cost)
+  {
         
         int n=cost.size();
         
