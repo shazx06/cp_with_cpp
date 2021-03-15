@@ -1,6 +1,5 @@
 # 16 March
 
-## based on stacks
 
 ---
 
