@@ -5,6 +5,7 @@
 ### [1. A simple text editor](https://www.hackerrank.com/challenges/simple-text-editor/problem)
 
 ```cpp
+#include <bits/stdc++.h>
 int N;
     cin>>N;
     stack<string>stk;
@@ -42,9 +43,6 @@ int N;
   {
         
         int n=cost.size();
-        
-        if (n==2)
-            return 1;
         int l=cost[0],r=cost[1],temp=0;
         for (int i=2;i<n;i++)
         {
