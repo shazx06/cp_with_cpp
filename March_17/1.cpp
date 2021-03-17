@@ -18,6 +18,6 @@ bool canJump(vector<int>& nums)
 
 int main()
 {
-	vector<int> v={3,2,1,0,4};
+	vector<int> v={3,2,1,4};
 	cout<<canJump(v)<<endl;
 }
