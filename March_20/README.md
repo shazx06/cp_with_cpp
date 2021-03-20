@@ -58,7 +58,7 @@ public:
 
 
 3. [poisonous plant](https://www.hackerrank.com/challenges/poisonous-plants/problem)
-```cpp
+```python
 def poisonousPlants(p):
   
     stack = []
