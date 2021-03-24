@@ -1,10 +1,11 @@
 ## March 24th
 
-1. **Given 3 coins of value 1,x,y and a target amount return the min coins required to make up the sum.
+1. Given 3 coins of value 1,x,y and a target amount return the min coins required to make up the sum.
 <br>
 Target =20<br>
 Ex :- x,y = 6,10<br>
-Min coins =2**
+Min coins =2
+
 ```cpp
 #include<iostream>
 using namespace std;
