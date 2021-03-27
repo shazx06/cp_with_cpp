@@ -27,6 +27,9 @@ def weird(s):
             res.append(even.pop(0))
         res+=odd
         res+=even
+    odd.clear()
+    even.clear()
+
 
 
     print("".join(res))
